@@ -1,0 +1,10 @@
+.dateInput::selection {
+  background-color: #F74B73;
+  color: whitesmoke;
+}
+
+.dateInput::-moz-selection{
+  /* Code for Firefox */
+  background-color: #F74B73;
+  color: whitesmoke;
+}

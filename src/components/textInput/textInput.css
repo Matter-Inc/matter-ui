@@ -1,0 +1,10 @@
+.textInput::selection {
+  background-color: #F74B73;
+  color: whitesmoke;
+}
+
+.textInput::-moz-selection{
+  /* Code for Firefox */
+  background-color: #F74B73;
+  color: whitesmoke;
+}
