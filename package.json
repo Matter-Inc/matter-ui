@@ -6,7 +6,7 @@
   "module": "dist/index.es.js",
   "scripts": {
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "build-storybook -c .storybook",
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c",
     "semantic-release": "semantic-release --branches main",
