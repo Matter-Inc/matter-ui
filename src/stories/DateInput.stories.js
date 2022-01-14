@@ -12,7 +12,7 @@ Default.args = {
   size: "md",
 };
 
-export const ExtraSmall = () => <DateInput size="xs" />;
+export const ExtraSmall = () => <DateInput size="xs" style={{backgroundColor: 'red'}} />;
 export const Small = () => <DateInput size="sm" />;
 export const Medium = () => <DateInput size="md" />;
 export const Large = () => <DateInput size="lg" />;

@@ -10,7 +10,8 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c",
     "semantic-release": "semantic-release --branches main",
-    "commit": "git pull && git add . && git-cz && git push"
+    "commit": "git pull && git add . && git-cz && git push",
+    "chromatic": "npx chromatic --project-token=894a493c8336"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.3.4",
     "cz-conventional-changelog": "^3.3.0",
     "jest": "^27.4.7",
     "react": "^17.0.2",
