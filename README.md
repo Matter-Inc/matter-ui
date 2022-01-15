@@ -6,9 +6,7 @@
 
 You can live test our components using **Storybook**.
 
-```bash
-$ npm run storybook
-```
+https://confident-kalam-43f67a.netlify.app
 
 ## Available components
 
